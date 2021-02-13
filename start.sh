@@ -8,8 +8,3 @@ for file in $(find ./ -name '*.py'); do
  gcc `python3-config --cflags --ldflags` $file
 done
 
-# Well if we do python -m julia
-# then it basically executes the __main__.py under julia
-
-# Haha Done
-./julia/__main__.py
